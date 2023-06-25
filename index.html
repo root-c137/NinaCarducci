@@ -39,6 +39,32 @@
 	<script defer src="./assets/maugallery.js" ></script>
 	<script defer src="./assets/scripts.js" ></script>
 	<meta name="google-site-verification" content="2oKOEF8RXVi7HuI16NJscNgglmZbQtRbIhSLOUyEkWw" />
+	<script type="application/ld+json">
+		{
+			"@context" : "https://schema.org",
+			"@type" : "LocalBusiness",
+			"name" : "Nina Carducci",
+			"image" : "https://root-c137.github.io/NinaCarducci/assets/images/nina.webp",
+			"description" : "Photographe professionnelle en île-de-France",
+			"address" : {
+				"@type" : "PostalAddress",
+				"streetAddress" : "68 avenue Alsace-Lorraine, 33200 Bordeaux",
+				"addressLocality" : "Bordeaux",
+				"postalCode" : "33200",
+				"addressCountry" : "FR"
+			},
+
+			"telephone" : "05 56 67 78 89",
+			"url" : "https://root-c137.github.io/NinaCarducci/",
+			"priceRange" : "de 50€ à 400€",
+			"openingHoursSpecification" : {
+				"@type" :  "OpeninHoursSpecification",
+				"dayOfWeek" : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+				"opens" : "10:00",
+				"closes" : "19:00"
+			}
+		}
+	</script>
 </head>
 <body>
 <header class="top-header">
@@ -110,7 +136,7 @@
 	</div>
 </section>
 <section id="gallery">
-	<h2 class="title">Portfolio</h2>
+	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item"
@@ -162,7 +188,7 @@
 	</div>
 </section>
 <section id="services">
-	<h2 class="title">Mes services</h2>
+	<h3 class="title">Mes services</h3>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
@@ -231,31 +257,6 @@
 	</div>
 </footer>
 
-<script type="application/ld+json">
-	{
-		"@context" : "https://schema.org",
-		"@type" : "LocalBusiness",
-		"name" : "Nina Carducci",
-		"image" : "https://root-c137.github.io/NinaCarducci/assets/images/nina.webp",
-		"description" : "Photographe professionnelle en île-de-France",
-		"address" : {
-			"@type" : "PostalAdress",
-			"streetAddress" : "68 avenue Alsace-Lorraine, 33200 Bordeaux",
-			"addressLocality" : "Bordeaux",
-			"postalCode" : "33200",
-			"addressCountry" : "FR"
-		},
 
-		"telephone" : "05 56 67 78 89",
-		"url" : "https://root-c137.github.io/NinaCarducci/",
-		"priceRange" : "de 50€ à 400€",
-		"openingHoursSpecification" : {
-			"@type" :  "OpeninHoursSpecification",
-			"dayOfWeek" : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-			"opens" : "10:00",
-			"closes" : "19:00"
-		}
-	}
-</script>
 </body>
 </html>
