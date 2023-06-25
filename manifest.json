@@ -1,0 +1,13 @@
+
+{
+  "theme_color": "#317EFB",
+  "icons": [
+
+        {
+          "src": "assets/images/nina.png",
+          "sizes": "196x196",
+          "type": "image/png",
+          "purpose": "any maskable"
+        }
+  ]
+}
